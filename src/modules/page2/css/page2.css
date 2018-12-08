@@ -1,0 +1,8 @@
+.media nav {
+    text-align: right;
+}
+
+.media nav button {
+    padding: 3px 10px;
+    margin: 3px 3px;
+}

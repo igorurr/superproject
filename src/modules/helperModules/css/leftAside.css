@@ -1,0 +1,45 @@
+.main-left-aside,
+.main-left-aside li {
+
+}
+
+.main-left-aside {
+    width: 200px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.main-left-aside li {
+    margin: 5px 0;
+}
+
+.main-left-aside li a.active {
+    color: #000;
+}
+
+.main-left-aside .navbar {
+    padding: 0;
+    position: relative;
+}
+
+.collapse-btn {
+    margin: auto;
+    border: none;
+    outline: none !important;
+}
+
+.navbar-collapse {
+    position: absolute;
+    top: 53px;
+    width: 100%;
+    background: #fffe;
+    z-index: 100;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .main-left-aside {
+        margin-bottom: 30px;
+    }
+}

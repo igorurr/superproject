@@ -1,0 +1,29 @@
+.main-header,
+.main-header div {
+    display: flex;
+}
+
+.main-header {
+    margin: 30px;
+    justify-content: space-around;
+    flex-flow: wrap;
+    min-width: 300px;
+}
+
+.main-header div {
+    margin: 15px;
+    justify-content: flex-end;
+    min-width: max-content;
+}
+
+.main-header p {
+    margin: 0;
+}
+
+.main-header p:first-child {
+    font-weight: bold;
+}
+
+.main-header p:last-child {
+    margin-left: 7px;
+}
