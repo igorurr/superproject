@@ -4,7 +4,7 @@ import {connect} from "react-redux";
 
 import { userIsLogined } from '../../../selectors/user';
 
-import { LoginForm } from './';
+import { LoginForm, HelperUsers } from './';
 
 import '../css/login.css';
 
@@ -22,6 +22,7 @@ class Login extends Component {
     return (
       <content className={'main-content page-login'}>
         <LoginForm />
+        <HelperUsers />
       </content>
     );
   }
